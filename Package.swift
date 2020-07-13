@@ -15,10 +15,6 @@ let package = Package(
         .library(
             name: "MultipeerKit",
             targets: ["MultipeerKit"]),
-        .library(
-            name: "MultipeerKit-dynamic",
-            type: .dynamic,
-            targets: ["MultipeerKit"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
